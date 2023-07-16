@@ -1,6 +1,10 @@
 import './globals.css'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Header from "../components/base/header"
+import Footer from "../components/base/footer"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,11 +19,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html>
       <body className={inter.className}>
-        <Header></Header>
-        {children}
-        <Footer></Footer>
+        <Header />
+        <>{children}</>
+        <Footer />
       </body>
     </html>
   )
