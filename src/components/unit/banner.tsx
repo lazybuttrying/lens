@@ -17,7 +17,7 @@ const cardStyle = "rounded w-full object-cover";
 
 function SlideBanner() {
     return (
-        <Slider {...slideSetting} className={"flex flex-row flex-wrap justify-around w-full"}>
+        <Slider {...slideSetting} className={"flex flex-row flex-wrap justify-around w-full max-w-screen-lg"}>
             <Image
                 className={cardStyle}
                 src={FirstImg}

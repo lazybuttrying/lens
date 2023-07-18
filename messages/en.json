@@ -1,0 +1,8 @@
+{
+    "base": {
+        "currency": "USD",
+        "welcome_message": [
+            "Buy Lens", "Colour your fashion life"
+        ]
+    }
+}

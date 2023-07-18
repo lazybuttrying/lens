@@ -10,9 +10,10 @@ function Card() {
                 style={{
                     objectFit: "contain"
                 }}
-                width={150}
-                height={150}
+                width={200}
+                height={200}
                 alt="Picture of the author"
+                quality={50}
             />
             <h3>Product Name</h3>
             <p>KRW 20,000</p>
@@ -23,7 +24,7 @@ function Card() {
 
 export default function Cardboard() {
     return (
-        <div className="w-full grid gap-13 lg:grid-cols-5 sm:grid-cols-3">
+        <div className="w-full lg:w-5/6 grid gap-5 xl:grid-cols-5 md:grid-cols-3 ">
 
             <Card/>
             <Card/>

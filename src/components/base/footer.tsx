@@ -6,7 +6,7 @@ export default function Footer() {
             
             <section>
                 <h3>Haul Lens</h3>
-                <p>© 2023 Allkorea All rights reserved.</p>
+                <p>© 2023 Allkorea all rights reserved.</p>
             </section>
 
             <section>
