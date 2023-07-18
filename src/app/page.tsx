@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-24 gap-20">
+    <main className="container flex flex-col items-center place-content-center px-24 gap-20 m-auto">
       <section className={"h-fit"}>
         <h1>Buy Lens</h1>
         <h1>Colour your fasion life</h1>

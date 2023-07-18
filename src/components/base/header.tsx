@@ -1,5 +1,5 @@
 import Image from "next/image"
-import LogoImage from "../../../public/logo/1.png"
+import LogoImage from "../../../public/logo/3.png"
 import Nav from "./nav"
 export default function Header() {
     return (
@@ -7,8 +7,8 @@ export default function Header() {
             <section className={"flex flex-row text-center"}>
                 <Image 
                     src={LogoImage}
-                    width={50}
-                    height={50}
+                    width={75}
+                    height={75}
                     alt="logo"
                 />
                 {/* <h2>Lense</h2> */}

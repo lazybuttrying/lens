@@ -22,22 +22,23 @@ function SlideBanner() {
                 className={cardStyle}
                 src={FirstImg}
                 alt={"banner 1"}
-                height={270}
-                quality={75}
+                height={500}
+                quality={100}
             />
             <Image
                 className={cardStyle}
                 src={SecondImg}
                 alt={"banner 2"}
-                height={270}
-                quality={50}
+                height={500}                
+                quality={100}
             />
             <Image
                 className={cardStyle}
                 src={ThirdImg}
                 alt={"banner 3"}
-                height={270}
-                quality={50}
+                height={500}
+                
+                quality={100}
             />
         </Slider>
 
